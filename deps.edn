@@ -1,0 +1,5 @@
+ {:deps {org.clojure/clojurescript {:mvn/version "1.11.54"}
+         com.bhauman/figwheel-main {:mvn/version "0.2.18"}
+         cljsjs/react {:mvn/version "18.2.0-0"}}
+  :paths ["src" "target" "resources"]
+  :aliases {:dev {:extra-deps []}}}

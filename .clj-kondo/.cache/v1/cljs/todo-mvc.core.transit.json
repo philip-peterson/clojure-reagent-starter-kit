@@ -1,0 +1,1 @@
+["^ ","~$hello",["^ ","~:row",9,"~:col",1,"~:fixed-arities",["~#set",[0]],"~:name","^0","~:ns","~$todo-mvc.core","~:top-ns","^7","~:arities",["^ ","~i0",["^ ","~:ret","~:string"]]],"~:filename","/Users/ironmagma/Code/ironmagma-clojure-reagent-starter-kit/src/todo_mvc/core.cljs"]

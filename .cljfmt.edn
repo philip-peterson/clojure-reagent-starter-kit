@@ -1,0 +1,7 @@
+{;:indentation? false
+ ;;:remove-surrounding-whitespace? false
+ ;;:remove-trailing-whitespace? false
+ ;;:remove-missing-whitespace? false
+ ;;:remove-multiple-non-indenting-spaces false
+
+ :split-keypairs-over-multiple-lines true}
