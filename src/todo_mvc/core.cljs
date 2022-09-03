@@ -1,9 +1,9 @@
 (ns todo-mvc.core
-  (:require [cljsjs.react :as react]))
+  (:require [reagent.core :as r]))
 
 (enable-console-print!)
 
-(.log js/console js/React)
+(.log js/console "reagent is" r/atom)
 (js/alert js/React)
 
 (defn hello [] "hello There")
