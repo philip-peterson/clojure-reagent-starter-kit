@@ -1,15 +1,19 @@
 (ns todo-mvc.core
   (:require [reagent.core :as r]
-   [reagent.core :as r]
-   [reagent.dom :as rdom]
-   [clojure.string :as str]))
+            [reagent.core :as r]
+            [reagent.dom :as rdom]
+            [react]
+            [styled-components :as styled]
+            [cljs-styled-components.reagent
+                      :refer [defstyled]]))
 
 (enable-console-print!)
 
-(defn todo-app []
-  [:div {:style {:background "#FFF"
-                 :color "#000"}}
+(defstyled example1 :p {:color "blue"})
 
-        [:h1 "title"]])
+(defn todo-app []
+  [:div example1 
+    ["hello world"]])
+  
 
 (rdom/render [todo-app] (js/document.getElementById "app"))

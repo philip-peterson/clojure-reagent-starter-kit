@@ -1,5 +1,8 @@
  {:deps {org.clojure/clojurescript {:mvn/version "1.11.54"}
          com.bhauman/figwheel-main {:mvn/version "0.2.18"}
-         reagent/reagent {:mvn/version "1.1.1"}}
+         reagent/reagent {:mvn/version "1.1.1" 
+                          :exclusions [cljsjs/react cljsjs/react-dom]
+         cljs-styled-components/cljs-styled-components {:mvn/version "0.1.11"}
+         }}
   :paths ["src" "target" "resources"]
   :aliases {:dev {:extra-deps []}}}
