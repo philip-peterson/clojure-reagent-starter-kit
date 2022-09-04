@@ -4,3 +4,4 @@ out
 .cpcache
 .calva/output-window
 .nrepl-port
+node_modules

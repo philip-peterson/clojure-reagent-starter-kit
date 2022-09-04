@@ -1,14 +1,15 @@
 (ns todo-mvc.core
-  (:require [reagent.core :as r]))
+  (:require [reagent.core :as r]
+   [reagent.core :as r]
+   [reagent.dom :as rdom]
+   [clojure.string :as str]))
 
 (enable-console-print!)
 
-(.log js/console "reagent is" r/atom)
-(js/alert js/React)
+(defn todo-app []
+  [:div {:style {:background "#FFF"
+                 :color "#000"}}
 
-(defn hello [] "hello There")
+        [:h1 "title"]])
 
-;; uncomment this to alter the provided "app" DOM element
-;; (set! (.-innerHTML (js/document.getElementById "app")) (hello))
-
-(println (hello))
+(rdom/render [todo-app] (js/document.getElementById "app"))
